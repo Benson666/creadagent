@@ -33,7 +33,8 @@ sudo ./install.sh
 ```
 
 ## Configuration
-After installation, you need to configure your LLM API settings in the configuration files:
+After installation, you can configure your LLM API settings in the configuration files:
+[notice] If you only use BASIC strategy, you can skip this step.
 - `/usr/local/etc/CredAgent/engine/config.json` - For the enclave daemon
 - `/usr/local/etc/CredAgent/protector/config.json` - For the protector CLI
 
