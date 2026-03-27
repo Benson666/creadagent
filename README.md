@@ -57,10 +57,9 @@ sudo enclave run &
 ```
 
 ### 3. Mount the Protected Filesystem
-Mount the shielded filesystem where protected credentials will be accessible:
+Fuse system will be mounted at the location in config file where the monitor.mount_point specify:
 ```bash
-sudo mkdir -p /opt/shielded
-sudo monitor --mount-point /opt/shielded &
+sudo monitor &
 ```
 
 ### 4. Protect Credentials
